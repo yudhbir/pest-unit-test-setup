@@ -1,0 +1,22 @@
+# composer init
+# After that you'll get some questions ask in order to generate composers's configuration file `composer.json``
+# Fill the below configuration for simplicity.
+
+        Package name (<vendor>/<name>): vendor/name
+        Description []: // leave empty
+        Author: Roland Loesslein <info@weaintplastic.com>
+        Minimum Stability []: // leave empty if not specified
+        License []: // leave empty if not specified
+        Would you like to define your dependencies (require) interactively [yes]? no
+        Would you like to define your dev dependencies (require-dev) interactively [yes]? no
+        Do you confirm generation [yes]? yes 
+
+# composer require pestphp/pest --dev --with-all-dependencies
+
+# On other projects, create a tests folder and run the pest --init command:
+
+# ./vendor/bin/pest --init
+
+# Write your test and to test run below command in the terminal.
+
+# ./vendor/bin/pest
